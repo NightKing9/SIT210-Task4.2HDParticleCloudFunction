@@ -1,0 +1,18 @@
+<html>
+<body>
+<h1>LED Lights Controller</h1>
+
+<form action="https://api.particle.io/v1/devices/e00fce68b680c7677dc6eb72/switchLEDs?access_token=d8e40e36385b7b1e4f51211addd2c1e968f0ff90" method ="POST">
+  <p>Turn on the LED: </p>
+  <input type="radio" id="red" name="led" value="red">
+  <label for="red">RED</label><br>
+  <input type="radio" id="yellow" name="led" value="yellow">
+  <label for="yellow">YELLOW</label><br>
+  <input type="radio" id="green" name="led" value="green">
+  <label for="green">GREEN</label><br>
+  <br>
+  <button type="submit">Turn on</button>
+</form>
+
+</body>
+</html>
